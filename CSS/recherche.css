@@ -1,0 +1,95 @@
+#section{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	
+}
+#recherche{
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	background: -webkit-linear-gradient(rgb(184,184,184) , rgb(248,248,248)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(rgb(184,184,184) , rgb(248,248,248)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(rgb(184,184,184) , rgb(248,248,248)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(rgb(184,184,184) , rgb(248,248,248)); /* Standard syntax */
+	border-radius: 3px;
+	justify-content: space-between;
+}
+#description {
+	display: flex;
+	flex-direction: column;
+
+}
+#titre{
+	font-size: 37px;
+	text-align: center;
+	font-family: lobster, Arial, sans-serif;
+}
+#d1, #s1, #c1, #e1, #m1, #ex1, #di1{
+	font-family: lobster, Arial, sans-serif;
+	font-size: 25px;
+}
+#d2a, #s2, #c2, #e2a, #m2a, #d2b, #e2b, #m2b, #ex2a, #ex2b, #di2a, #di2b{
+	text-align: right;
+}
+#d2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+	
+}
+#e2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+#m2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+#ex2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+#di2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+.bouton
+{
+		position: absolute;
+		font-family: lobster , sans-serif;
+		font-size: 2em;
+		width: 400px;
+		height: 43px;
+		padding-bottom: 5px;
+		text-align: center;
+		color: white;
+		background:  -moz-linear-gradient(top,  #164f86 0%, #0d3569 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#164f86), color-stop(100%,#0d3569)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #164f86 0%,#0d3569 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #164f86 0%,#0d3569 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #164f86 0%,#0d3569 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #164f86 0%,#0d3569 100%); /* W3C */
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+		box-shadow: 4px 4px 12px rgba(0, 0, 0, 1);
+		
+
+}
+.bouton:hover
+{
+	background:  -moz-linear-gradient(top,  #164f86 0%, #0d3569 10%);
+}
+.bouton:active
+{
+	box-shadow: 1px 1px 15px black inset,
+				0 1px 0 rgba( 255,255,255, 0.5);
+}
