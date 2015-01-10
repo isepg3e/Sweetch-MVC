@@ -1,0 +1,28 @@
+table
+{
+	height: 30px;
+	width: 95%;
+	background-color: white;
+	border-collapse: collapse;
+	margin-left:auto;
+	margin-right:auto;
+	border: 1px solid black;
+}
+td
+{
+	border: 1px solid black;
+	width:10%;
+	border-collapse: collapse;
+	text-align:center;
+}
+th
+{
+	
+	width:10%;
+	border-collapse: collapse;
+	text-align:center;
+}
+section
+{
+height:auto;
+}
